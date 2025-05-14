@@ -23,6 +23,8 @@ require("lazy").setup({
   },
 
   { import = "plugins" },
+  -- Import all plugin specs from lua/custom/plugins/
+  { import = "custom.plugins" },
 }, lazy_config)
 
 -- load theme
