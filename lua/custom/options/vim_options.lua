@@ -19,6 +19,7 @@ vim.cmd('set tw=0')
 -- vim.cmd('colorscheme solarized')  --To set solaraized color scheme
 vim.cmd('filetype plugin on')
 vim.cmd('syntax on')
+
 -- key mappings
 vim.cmd([[
     autocmd FileType * nnoremap <buffer> <C-Up> :cope 15<CR>
@@ -26,6 +27,10 @@ vim.cmd([[
     autocmd FileType * nnoremap <buffer> <C-Right> :cn<CR>
     autocmd FileType * nnoremap <buffer> <C-Left> :cp<CR>
 ]])
+-- key mappings for vim-fugitive
+vim.keymap.set("n", "<leader>gs", vim.cmd.Git); --git status
+vim.keymap.set("n", "<leader>gd", ':Gdiff<CR>', {});
+vim.keymap.set("n", "<leader>gb", ':Git blame<CR>', {});
 
 -- vim globals
 --vim.g.solarized_termcolors=16  -- To set solaraized color scheme
