@@ -34,6 +34,9 @@ dofile(vim.g.base46_cache .. "statusline")
 require "options"
 require "nvchad.autocmds"
 
+-- Load custom options directly using require
+require("custom.options.vim_options")
+
 vim.schedule(function()
   require "mappings"
 end)
