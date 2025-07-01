@@ -6,11 +6,11 @@
 local M = {}
 
 M.base46 = {
-	-- theme = "aquarium",
-	-- theme = "ashes",
+	-- theme = "chadtain",
+	-- theme = "chadtain",
 	-- theme = "ayu_dark",
-	-- theme = "ayu_light",
-	-- theme = "bearded-arc",
+	-- theme = "chadtain",
+	-- theme = "chadtain",
 	-- theme = "blossom_light",
 	-- theme = "catppuccin",
 	-- theme = "chadracula-evondev",
@@ -64,8 +64,8 @@ M.base46 = {
 	-- theme = "rosepine-dawn",
 	-- theme = "rosepine",
 	-- theme = "rxyhn",
-	theme = "solarized_dark",
-	-- theme = "solarized_light",
+	theme = "chadtain",
+	-- theme = "chadtain",
 	-- theme = "sweetpastel",
 	-- theme = "tokyodark",
 	-- theme = "tokyonight",
