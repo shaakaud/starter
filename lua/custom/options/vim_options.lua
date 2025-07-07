@@ -12,7 +12,6 @@ vim.cmd('set ruler')
 vim.cmd('set incsearch')
 vim.cmd('set ttyfast')
 vim.cmd('set expandtab')
-vim.cmd('set laststatus=2')
 vim.cmd('set colorcolumn=80')     -- to draw a vertical line at column 80 and highlight all red after that
 vim.cmd('set nowrap')
 vim.cmd('set tw=0')
@@ -43,6 +42,8 @@ vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.wrap = false
 vim.opt.diffopt = "vertical"
+-- views can only be fully collapsed with the global statusline
+vim.opt.laststatus = 3
 -- Below line is to delete the sign column ie the first column in the vim file which is used for signing the diagnostic errors in that file (E for errors, W for warnings etc)
 vim.opt.signcolumn = "no"
 -- vim.opt.background = 'dark'
